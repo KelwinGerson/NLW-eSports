@@ -1,0 +1,21 @@
+Programação não tem atalho.
+
+Investir na tecnologia certa e dominar as ferramentas.
+
+JavaScript React → criar interface de usuário para interações
+
+Node JS → construir aplicações rodadas pelo lado do servidor
+ -    V8 Motor Chrome usado pelo server side
+
+JSON (JavaScript Object Notation) transição informações entre back-end x front-end
+
+API RESTful + SPA (Single-page application)
+
+npm é um gerenciador de pacotes
+
+npm init -y → comando que inicia o projeto 
+
+package.json → definições principais do projeto
+package-lock.json → facilitador para o gerenciador de pacotes encontrar os mesmos e ter referências mais rápidas
+express → facilita comandos comuns como:
+    - rotas 
