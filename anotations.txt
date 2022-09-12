@@ -19,3 +19,25 @@ package.json → definições principais do projeto
 package-lock.json → facilitador para o gerenciador de pacotes encontrar os mesmos e ter referências mais rápidas
 express → facilita comandos comuns como:
     - rotas 
+
+--------------------------------------
+EXPRESS
+
+Para utilizar as importações no novo modo, basta mudar/criar o atributo "type" recebendo "modules", logo o
+arquivo server.js passará a ser server.mjs 
+
+--------------------------------------
+TYPESCRIPT
+
+Testa os fluxos dos códigos em background
+Usado apenas em dev
+
+tipagem estática → variável são explícitamentes definidas no código, assim, evitando erros futuros 
+
+--------------------------------------
+NPM
+
+npx tsc → converte arquivo typescript em js
+npm init -y → inicia um projeto node pulando todas as perguntas
+npm install @types/express -D → instalando uma dependencia que o ts nao tem nativamente 
+npm i ts-node-dev -D → reestarta aplicação automaticamente e converte ts > js para dev
