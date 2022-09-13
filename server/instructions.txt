@@ -11,14 +11,10 @@ JSON (JavaScript Object Notation) transição informações entre back-end x fro
 
 API RESTful + SPA (Single-page application)
 
-npm é um gerenciador de pacotes
-
-npm init -y → comando que inicia o projeto 
 
 package.json → definições principais do projeto
 package-lock.json → facilitador para o gerenciador de pacotes encontrar os mesmos e ter referências mais rápidas
-express → facilita comandos comuns como:
-    - rotas 
+express → facilita comandos comuns como: rotas 
 
 --------------------------------------
 EXPRESS
@@ -34,10 +30,32 @@ Usado apenas em dev
 
 tipagem estática → variável são explícitamentes definidas no código, assim, evitando erros futuros 
 
+Componentes →
+
+Propriedades →
+
 --------------------------------------
 NPM
 
+npm é um gerenciador de pacotes
 npx tsc → converte arquivo typescript em js
 npm init -y → inicia um projeto node pulando todas as perguntas
 npm install @types/express -D → instalando uma dependencia que o ts nao tem nativamente 
 npm i ts-node-dev -D → reestarta aplicação automaticamente e converte ts > js para dev
+
+
+--------------------------------------
+React e React Native trabalha de formas parecidas, podendo utilizar os códigos também no mobile.
+As interfaces são declarativas, funcionando nos dois ambientes (android e IOS)
+
+
+--------------------------------------
+Expo CLI
+
+
+
+
+
+
+
+

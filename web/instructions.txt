@@ -1,0 +1,3 @@
+COMPONENTES E PROPRIEDADES
+
+Componente React é uma função que retorna HTML
