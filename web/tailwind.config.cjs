@@ -7,6 +7,9 @@ module.exports = {
     'index.html',
   ],
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif']
+    },
     extend: {
       backgroundImage: {
         galaxy: "url('public/background-galaxy.png')",

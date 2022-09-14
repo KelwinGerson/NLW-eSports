@@ -15,7 +15,7 @@ function App() {
     // flex-col → fica um texto em baixo do outro
     // block → pula linha
 
-    // className está estilizando o componente
+    // className está estilizando(css) o componente
     <div className='max-w-[1344px], mx-auto flex flex-col items-center m-20'>
       <img src={logoImg} alt="" />
       

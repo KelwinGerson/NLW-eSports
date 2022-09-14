@@ -1,0 +1,35 @@
+expo init nomeprojeto → começar um projeto expo mobile
+
+pasta assets é usada para colocar imagens e arquivo de mídia
+
+View = Div
+
+todas importações no react passam pelo JS
+
+tailwind → conseguimos fazer a estilização dentro do html
+
+rem → medidas relativas dinâmicas conforme resolução do cliente
+
+tudo que colocamos dentro da pasta public conseguimos acessar via browser
+
+só colocar etilizações no index.html caso desejar espelhar para todas as rotas do site
+
+figma ajuda na montar/estilização da página, plataforma para montar o front
+
+---------------------------------------------------------
+MOBILE
+
+Cada dispositivo tem sua densidade de píxel
+
+Splash Screen → customize splash screen for your app - Figma Template
+
+RNBC → React Navite Basic Component 
+RNSO → React Navite StyleSheet  Object
+
+LIBRARIES UTILIZADAS
+
+npx expo install expo-font @expo-google-fonts/inter
+npx expo install react-native-screens react-native-safe-area-context
+npx expo install expo-linear-gradient
+
+Pasta de component começa com letra maiúscula
