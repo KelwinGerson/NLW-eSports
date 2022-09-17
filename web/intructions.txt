@@ -1,0 +1,2 @@
+It's good use components for application. Before is possible use in other this
+    components started com big word, and staying in componets folder
