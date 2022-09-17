@@ -1,3 +1,16 @@
+COMANDS UTILIZADOS
+
+npm é um gerenciador de pacotes
+npx tsc → converte arquivo typescript em js
+npm init -y → inicia um projeto node pulando todas as perguntas
+npm install @types/express -D → instalando uma dependencia que o ts nao tem nativamente 
+npm i ts-node-dev -D → reestarta aplicação automaticamente e converte ts > js para dev
+npx prisma init --datasource-provider SQLite → utilizar prisma definindo qual banco de dados irá utilizar
+npx prisma migrate dev → created the table with define in file 'schema.prisma'
+npx prisma studio → created a graphic interface for us see the tables
+npm i @prisma/client → pdr
+--------------------------------------
+
 Programação não tem atalho.
 
 Investir na tecnologia certa e dominar as ferramentas.
@@ -11,10 +24,13 @@ JSON (JavaScript Object Notation) transição informações entre back-end x fro
 
 API RESTful + SPA (Single-page application)
 
+--------------------------------------
+DEFINIÇÕES
 
 package.json → definições principais do projeto
 package-lock.json → facilitador para o gerenciador de pacotes encontrar os mesmos e ter referências mais rápidas
 express → facilita comandos comuns como: rotas 
+migration → version of db, time line
 
 --------------------------------------
 EXPRESS
@@ -29,29 +45,14 @@ Testa os fluxos dos códigos em background
 Usado apenas em dev
 
 tipagem estática → variável são explícitamentes definidas no código, assim, evitando erros futuros 
-
 Componentes →
-
 Propriedades →
 
---------------------------------------
-NPM
-
-npm é um gerenciador de pacotes
-npx tsc → converte arquivo typescript em js
-npm init -y → inicia um projeto node pulando todas as perguntas
-npm install @types/express -D → instalando uma dependencia que o ts nao tem nativamente 
-npm i ts-node-dev -D → reestarta aplicação automaticamente e converte ts > js para dev
 
 
 --------------------------------------
 React e React Native trabalha de formas parecidas, podendo utilizar os códigos também no mobile.
 As interfaces são declarativas, funcionando nos dois ambientes (android e IOS)
-
-
---------------------------------------
-Expo CLI
-
 
 
 

@@ -1,0 +1,23 @@
+A arquitetura é ideal fazer em um segundo momento.
+
+Quando criar um projeto, aprender uma coisa de cada vez.
+
+--- HTTP Status --- 
+
+201 → something was sucefull created
+
+If starded with a number: 
+
+2XX → sucefull
+3XX → redirect
+4xx → errors
+5XX → diferents erros 
+
+-----------------
+ORM 
+
+Prisma
+
+Every db table has relationship with an entity within your code
+
+schema.prisma → where created the tables
