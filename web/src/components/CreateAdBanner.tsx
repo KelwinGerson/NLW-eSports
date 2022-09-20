@@ -1,4 +1,7 @@
 import { MagnifyingGlassPlus } from "phosphor-react";
+import * as Dialog from '@radix-ui/react-dialog'
+
+// Dialog.Trigger → how a button
 
 export function CreateAdBanner  () {
     return (
@@ -8,9 +11,9 @@ export function CreateAdBanner  () {
                 <strong className='text-2xl text-white font-black block'>Don't find your DUO ?</strong>
                 <span className='text-zinc-400 block'>Post here to find new players!</span>
             </div>
-            <button className='py-3 px-4 bg-violet-500 hover:bg-violet-600 text-white rounded flex items-center gap-3'>→ Click here for find ←
-            <MagnifyingGlassPlus size={24}/>
-            </button>
+            <Dialog.Trigger className='py-3 px-4 bg-violet-500 hover:bg-violet-600 text-white rounded flex items-center gap-3'>→ Click here for find ←
+              <MagnifyingGlassPlus size={24}/>
+            </Dialog.Trigger>
         </div>
 
       </div>
