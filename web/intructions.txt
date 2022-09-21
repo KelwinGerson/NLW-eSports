@@ -2,3 +2,9 @@ It's good use components for application. Before is possible use in other this
     components started com big word, and staying in componets folder
 
 Radix → coisas semi prontas de components
+
+
+comands 
+
+npm i @radix-ui/react-checkbox
+npm i axios
